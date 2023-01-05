@@ -1,0 +1,95 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: cl.exe build active file",
+			"command": "cl.exe",
+			"args": [
+				"/c",
+				"/GS",
+				"/GL",
+				"/W3",
+				"/Gy",
+				"/Zc:wchar_t",
+				"/I",
+				"C:\\Program Files\\IBM\\ILOG\\CPLEX_Studio128\\concert\\include",
+				"/I",
+				"C:\\Program Files\\IBM\\ILOG\\CPLEX_Studio128\\cplex\\include",
+				"/Zi",
+				"/Gm-",
+				"/O2",
+				"/sdl",
+				"/Zc:inline",
+				"/fp:precise",
+				"/D",
+				"IL_STD",
+				"/D",
+				"NDEBUG",
+				"/D",
+				"_CONSOLE",
+				"/D",
+				"_UNICODE",
+				"/D",
+				"UNICODE",
+				"/errorReport:prompt",
+				"/WX-",
+				"/Zc:forScope",
+				"/Gd",
+				"/Oi",
+				"/MD",
+				"/FC",
+				"/EHsc",
+				"/nologo",
+				"/diagnostics:classic",
+				"${fileDirname}\\*.cpp"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true,
+			},
+			"detail": "compiler: cl.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: link.exe link obj file",
+			"command": "link.exe",
+			"args": [
+				"/OUT:\"${fileDirname}\\${fileBasenameNoExtension}.exe\"",
+				"/MANIFEST",
+				"/LTCG:incremental",
+				"/NXCOMPAT",
+				"/DYNAMICBASE",
+				"C:\\Program Files\\IBM\\ILOG\\CPLEX_Studio128\\cplex\\lib\\x64_windows_vs2017\\stat_mda\\ilocplex.lib",
+				"C:\\Program Files\\IBM\\ILOG\\CPLEX_Studio128\\cplex\\lib\\x64_windows_vs2017\\stat_mda\\cplex1280.lib",
+				"C:\\Program Files\\IBM\\ILOG\\CPLEX_Studio128\\concert\\lib\\x64_windows_vs2017\\stat_mda\\concert.lib",
+				"/MACHINE:X64",
+				"/OPT:REF",
+				"/INCREMENTAL:NO",
+				"/SUBSYSTEM:CONSOLE",
+				"/OPT:ICF",
+				"/ERRORREPORT:PROMPT",
+				"/NOLOGO",
+				"/TLBID:1",				
+				"${fileDirname}\\*.obj",
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true,
+			},
+			"detail": "compiler: cl.exe"
+		}
+	]
+}

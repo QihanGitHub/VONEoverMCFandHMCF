@@ -1,0 +1,135 @@
+Sorted Virtual Request Topology 1 are following:
+Link ID   Start     End       Start Capacity End Capacity   Bandwidth      
+1         1         2         3              5              4              
+2         2         3         5              1              4              
+3         3         4         1              5              4              
+4         1         3         3              1              4              
+5         2         4         5              5              4              
+There are 4 Vertexes and 5 Edges in this topology!
+
+Sorted Virtual Request Topology 2 are following:
+Link ID   Start     End       Start Capacity End Capacity   Bandwidth      
+1         1         2         3              2              4              
+2         2         3         2              2              4              
+There are 3 Vertexes and 2 Edges in this topology!
+
+Sorted Virtual Request Topology 3 are following:
+Link ID   Start     End       Start Capacity End Capacity   Bandwidth      
+1         1         2         3              5              5              
+There are 2 Vertexes and 1 Edges in this topology!
+
+Sorted Virtual Request Topology 4 are following:
+Link ID   Start     End       Start Capacity End Capacity   Bandwidth      
+1         1         2         2              2              3              
+There are 2 Vertexes and 1 Edges in this topology!
+
+Sorted Virtual Request Topology 5 are following:
+Link ID   Start     End       Start Capacity End Capacity   Bandwidth      
+1         1         2         3              3              3              
+There are 2 Vertexes and 1 Edges in this topology!
+
+Core priority is: 1->3->5->4->2->6
+Core classification is: 1->3->2->1->3->2
+Current virtual network vertexes embedding result is: 
+No.1 Node in VN was embedded in SN Node No.4
+No.2 Node in VN was embedded in SN Node No.2
+No.3 Node in VN was embedded in SN Node No.5
+No.4 Node in VN was embedded in SN Node No.3
+
+Current virtual network edges embedding result is: 
+No.1 Link in VN was embedded in SN Link 4->2, with distance: 1
+No.2 Link in VN was embedded in SN Link 2->3->5, with distance: 2
+No.3 Link in VN was embedded in SN Link 5->3, with distance: 1
+No.4 Link in VN was embedded in SN Link 4->5, with distance: 1
+No.5 Link in VN was embedded in SN Link 2->3, with distance: 1
+
+Core Record is: 
+5	4	4	5	4	10	
+11	4	4	5	4	10	
+
+Start Frequency is: 0, 0, 1, 0, 0, 1
+
+Core Priority is: 1, 3, 5, 4, 2, 6
+
+Core Classification is: 1, 3, 2, 1, 3, 2
+
+Current Virtual Network Cores Assignment Result is: Core 3--Core 3--Core 3--Core 3--Core 3--Core 6, with start frequency: 1
+
+Current virtual network vertexes embedding result is: 
+No.1 Node in VN was embedded in SN Node No.5
+No.2 Node in VN was embedded in SN Node No.4
+No.3 Node in VN was embedded in SN Node No.2
+
+Current virtual network edges embedding result is: 
+No.1 Link in VN was embedded in SN Link 5->6->4, with distance: 2
+No.2 Link in VN was embedded in SN Link 4->3->1->2, with distance: 3
+
+Core Record is: 
+4	5	5	5	4	
+10	5	5	5	4	
+
+Start Frequency is: 0, 0, 1, 0, 0, 1
+
+Core Priority is: 1, 3, 5, 4, 2, 6
+
+Core Classification is: 1, 3, 2, 1, 3, 2
+
+Current Virtual Network Cores Assignment Result is: Core 3--Core 3--Core 3--Core 3--Core 3, with start frequency: 1
+
+Current virtual network vertexes embedding result is: 
+No.1 Node in VN was embedded in SN Node No.4
+No.2 Node in VN was embedded in SN Node No.5
+
+Current virtual network edges embedding result is: 
+No.1 Link in VN was embedded in SN Link 4->5, with distance: 4
+
+Core Record is: 
+8	
+2	
+
+Start Frequency is: 0, 1, 0, 0, 1, 0
+
+Core Priority is: 1, 3, 5, 4, 2, 6
+
+Core Classification is: 1, 3, 2, 1, 3, 2
+
+Current Virtual Network Cores Assignment Result is: Core 5, with start frequency: 1
+
+Current virtual network vertexes embedding result is: 
+No.1 Node in VN was embedded in SN Node No.3
+No.2 Node in VN was embedded in SN Node No.2
+
+Current virtual network edges embedding result is: 
+No.1 Link in VN was embedded in SN Link 3->2, with distance: 4
+
+Core Record is: 
+1	
+7	
+
+Start Frequency is: 1, 0, 0, 1, 0, 0
+
+Core Priority is: 1, 3, 5, 4, 2, 6
+
+Core Classification is: 1, 3, 2, 1, 3, 2
+
+Current Virtual Network Cores Assignment Result is: Core 1, with start frequency: 1
+
+Current virtual network vertexes embedding result is: 
+No.1 Node in VN was embedded in SN Node No.3
+No.2 Node in VN was embedded in SN Node No.4
+
+Current virtual network edges embedding result is: 
+No.1 Link in VN was embedded in SN Link 3->4, with distance: 4
+
+Core Record is: 
+0	
+6	
+
+Start Frequency is: 1, 0, 0, 1, 0, 0
+
+Core Priority is: 1, 3, 5, 4, 2, 6
+
+Core Classification is: 1, 3, 2, 1, 3, 2
+
+Current Virtual Network Cores Assignment Result is: Core 1, with start frequency: 1
+
